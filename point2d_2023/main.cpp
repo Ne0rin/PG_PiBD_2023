@@ -14,11 +14,11 @@ int main() {
 	cout << "Dodaj wsp. Y\n";
 	float promth;
 	cin >> promth;
-	if (promth >= 0) {
+	if (promth > 0) {
 		my_point.setY(promth);
 	} else
 	{
-		cout << "Liczba jest mniej niz 0> Wpowadz ponad 0";
+		cout << "Liczba jest mniej niz 0> Wpowadz ponad 0\n";
 		cin >> promth;
 		my_point.setY(promth);
 	}
