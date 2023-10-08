@@ -6,6 +6,8 @@ class Point2D {
 	float y;
 
 public: 
+	Point2D();
+
 	void setX(float);
 	void setY(float);
 
