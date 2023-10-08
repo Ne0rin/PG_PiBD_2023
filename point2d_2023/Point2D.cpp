@@ -11,6 +11,14 @@ Point2D::Point2D()
 	this->y = 0.0f;
 }
 
+
+Point2D::Point2D(float x, float y)
+{
+	cout << "Konstruktor z agr.";
+		this->x = x;
+		this->y = y;
+}
+
 void Point2D::setX(float x) {
 	this-> x;
 }
@@ -28,3 +36,5 @@ float Point2D::getY()
 {
 	return this->y;
 }
+
+//void Point2D::display();
